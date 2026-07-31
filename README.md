@@ -93,7 +93,7 @@ python -m pip install --upgrade pip
 Install the packages used by the dbt project and the dashboard:
 
 ```bash
-pip install dbt-duckdb streamlit pandas plotly sqlalchemy duckdb
+pip install dbt-duckdb streamlit pandas plotly sqlalchemy duckdb-sqlalchemy
 ```
 
 ### Copy Or Create Your dbt Profile
