@@ -1,0 +1,13 @@
+version: 2
+
+models:
+  - name: int_orders_enriched
+    description: "enriched orders table"
+    columns:
+      - name: user_id
+        description: "The primary key for enriched orders table"
+        data_tests:
+          - unique
+          - not_null
+  
+ 
