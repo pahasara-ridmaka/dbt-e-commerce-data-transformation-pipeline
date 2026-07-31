@@ -1,0 +1,40 @@
+version: 2
+
+models:
+  - name: fct_orders
+    description: "fact orders table"
+    columns:
+      - name: order_id
+        description: "The primary key for fact orders table"
+        data_tests:
+          - unique
+          - not_null
+  
+  - name: dim_users
+    description: "users dimension table"
+    columns:
+      - name: user_id
+        description: "The primary key for users dimension table"
+        data_tests:
+          - unique
+          - not_null
+
+  - name: dim_products
+    description: "products dimension table"
+    columns:
+      - name: product_id
+        description: "The primary key for products dimension table"
+        data_tests:
+          - unique
+          - not_null
+          
+  - name: dim_promotions
+    description: "promotions dimension table"
+    columns:
+      - name: promotion_id
+        description: "The primary key for promotions dimension table"
+        data_tests:
+          - unique
+          - not_null
+  
+ 
