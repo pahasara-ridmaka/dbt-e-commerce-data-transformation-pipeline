@@ -166,10 +166,10 @@ with col1:
 
 with col2:
     st.subheader("Top 10 Products by Revenue")
-    top_products = filtered_df.groupby("product_id")['total_amount'].sum().sort_values(ascending=True).head(10).reset_index()
+    top_10_products = filtered_df.groupby("product_id")['total_amount'].sum().sort_values(ascending=False, axis=0).head(10).reset_index()
 
     fig_top = px.bar(
-        top_products,
+        top_10_products,
         x='product_id',
         y='total_amount',
         title='Top 10 Products by Revenue',
