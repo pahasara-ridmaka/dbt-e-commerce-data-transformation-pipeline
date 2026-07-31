@@ -2,6 +2,9 @@ import pandas as pd
 import numpy as np
 import random
 from datetime import datetime, timedelta
+import os
+
+base_dir = os.path.dirname(os.path.abspath(__file__))
 
 
 # Helper function to create messy strings
@@ -28,7 +31,7 @@ users_data = {
 }
 
 df_users = pd.DataFrame(users_data)
-df_users.to_csv("users.csv", index=False)
+df_users.to_csv(f"{base_dir}/raw/users.csv", index=False)
 
 # 2. Generate Products Data (50 Records)
 products_data = {
@@ -48,7 +51,7 @@ df_products = pd.DataFrame(products_data)
 df_products = pd.concat([df_products, df_products.iloc[[0, 1, 2]]]).reset_index(
     drop=True
 )
-df_products.to_csv("products.csv", index=False)
+df_products.to_csv(f"{base_dir}/raw/products.csv", index=False)
 
 # 3. Generate Orders Data (200 Records)
 orders_data = {
@@ -65,7 +68,7 @@ orders_data = {
 }
 
 df_orders = pd.DataFrame(orders_data)
-df_orders.to_csv("orders.csv", index=False)
+df_orders.to_csv(f"{base_dir}/raw/orders.csv", index=False)
 
 # 4.  Generate Promotion Data (  20 records)
 promo_data = {
@@ -75,7 +78,7 @@ promo_data = {
 }
 
 df_promo = pd.DataFrame(promo_data)
-df_promo.to_csv("promotions.csv", index=False)
+df_promo.to_csv(f"{base_dir}/raw/promotions.csv", index=False)
 
 print(
     "Data generation complete. Files created: users.csv, products.csv, promotions.csv"
