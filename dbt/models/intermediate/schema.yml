@@ -1,0 +1,30 @@
+version: 2
+
+models:
+  - name: int_orders_enriched
+    description: "enriched orders table"
+    columns:
+      - name: user_id
+        description: "The primary key for enriched orders table"
+        data_tests:
+          - unique
+          - not_null
+  
+  - name: int_orders_joined_products
+    description: "enriched orders table joined with products"
+    columns:
+      - name: order_id
+        description: "The primary key for enriched orders table joined with products"
+        data_tests:
+          - unique
+          - not_null
+
+  - name: int_product_inventory_status
+    description: "enriched products table with inventory status"
+    columns:
+      - name: product_id
+        description: "The primary key for enriched products table"
+        data_tests:
+          - unique
+          - not_null
+ 
