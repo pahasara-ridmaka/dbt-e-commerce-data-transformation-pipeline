@@ -1,0 +1,40 @@
+version: 2
+
+models:
+  - name: stg_users
+    description: "users table"
+    columns:
+      - name: user_id
+        description: "The primary key for users table"
+        data_tests:
+          - unique
+          - not_null
+  
+  - name: stg_orders
+    description: "orders table"
+    columns:
+      - name: order_id
+        description: "The primary key for orders table"
+        data_tests:
+          - unique
+          - not_null
+
+  
+  - name: stg_products
+    description: "products table"
+    columns:
+      - name: product_id
+        description: "The primary key for products table"
+        data_tests:
+          - unique
+          - not_null
+
+  
+  - name: stg_promotions
+    description: "promotions table"
+    columns:
+      - name: promotion_id
+        description: "The primary key for promotions table"
+        data_tests:
+          - unique
+          - not_null
