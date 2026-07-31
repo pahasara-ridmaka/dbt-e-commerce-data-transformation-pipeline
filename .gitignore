@@ -1,8 +1,8 @@
 venv/
 logs/
-project_alpha/dev.duckdb
-project_alpha/target/
-project_alpha/dbt_packages/
-project_alpha/logs/
-project_alpha/.env
+dbt/dev.duckdb
+dbt/target/
+dbt/dbt_packages/
+dbt/logs/
+dbt/.env
 
