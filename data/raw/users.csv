@@ -1,0 +1,101 @@
+user_id,full_name,email,signup_date,region
+101,USER_0,,2023-05-03,West
+102, User_1,user1@example.com,2023-04-06,South
+103,user_2,user2@example.com,2023-06-06,North
+104,N/A,user3@example.com,2023-08-12,South
+105, User_4,user4@example.com,2023-03-29,North
+106,N/A,user5@example.com,2023-01-11,WEST
+107,USER_6,user6@example.com,2023-02-12,WEST
+108,User_7,user7@example.com,2023-12-06,WEST
+109,USER_8,user8@example.com,2023-08-23,WEST
+110,user_9,user9@example.com,2023-04-14,East
+111,USER_10,,2023-09-08,East
+112, User_11,user11@example.com,2023-03-26,West
+113, User_12,user12@example.com,2023-12-21,West
+114,USER_13,user13@example.com,2023-12-24,north
+115,USER_14,user14@example.com,2023-08-03,South
+116,user_15,user15@example.com,2023-12-16,South
+117, User_16,user16@example.com,2023-01-01,WEST
+118, User_17,user17@example.com,2023-01-21,South
+119,User_18,user18@example.com,2023-02-18,West
+120,User_19,user19@example.com,2023-06-15,South
+121,N/A,,2023-05-01,WEST
+122,User_21,user21@example.com,2023-12-09,North
+123, User_22,user22@example.com,2023-06-05,north
+124,User_23,user23@example.com,2023-03-08,East
+125,USER_24,user24@example.com,2023-07-13,WEST
+126,N/A,user25@example.com,2023-09-06,North
+127, User_26,user26@example.com,2023-11-24,north
+128,user_27,user27@example.com,2023-09-04,north
+129,user_28,user28@example.com,2023-10-07,north
+130,User_29,user29@example.com,2023-01-25,WEST
+131,User_30,,2023-09-20,South
+132,User_31,user31@example.com,2023-06-10,South
+133,N/A,user32@example.com,2023-07-20,north
+134,User_33,user33@example.com,2023-08-10,WEST
+135,N/A,user34@example.com,2023-01-22,North
+136,User_35,user35@example.com,2023-05-25,North
+137, User_36,user36@example.com,2023-05-19,North
+138, User_37,user37@example.com,2023-01-27,WEST
+139, User_38,user38@example.com,2023-06-16,WEST
+140,User_39,user39@example.com,2023-06-03,North
+141,USER_40,,2023-01-04,West
+142,N/A,user41@example.com,2023-08-15,north
+143,user_42,user42@example.com,2023-04-21,north
+144,user_43,user43@example.com,2023-12-06,North
+145,USER_44,user44@example.com,2023-10-20,East
+146,N/A,user45@example.com,2023-08-29,West
+147,user_46,user46@example.com,2023-04-19,north
+148, User_47,user47@example.com,2023-12-13,South
+149,USER_48,user48@example.com,2023-09-22,North
+150,N/A,user49@example.com,2023-08-07,north
+151,N/A,,2023-07-22,West
+152,N/A,user51@example.com,2023-03-25,WEST
+153,User_52,user52@example.com,2023-09-15,north
+154,user_53,user53@example.com,2023-05-28,north
+155,N/A,user54@example.com,2023-01-13,north
+156,USER_55,user55@example.com,2023-02-25,South
+157,USER_56,user56@example.com,2023-07-13,West
+158,user_57,user57@example.com,2023-04-03,East
+159,USER_58,user58@example.com,2023-04-02,WEST
+160,user_59,user59@example.com,2023-12-30,East
+161,USER_60,,2023-01-09,West
+162,User_61,user61@example.com,2023-07-14,WEST
+163, User_62,user62@example.com,2023-10-16,East
+164,USER_63,user63@example.com,2023-04-27,WEST
+165,USER_64,user64@example.com,2023-03-05,South
+166,user_65,user65@example.com,2023-01-17,West
+167,user_66,user66@example.com,2023-01-08,East
+168,User_67,user67@example.com,2023-04-06,north
+169,USER_68,user68@example.com,2023-12-26,north
+170, User_69,user69@example.com,2023-02-13,West
+171,user_70,,2023-02-27,South
+172, User_71,user71@example.com,2023-01-29,WEST
+173,user_72,user72@example.com,2023-10-02,East
+174,User_73,user73@example.com,2023-01-12,West
+175,User_74,user74@example.com,2023-11-05,north
+176,N/A,user75@example.com,2023-10-15,West
+177,User_76,user76@example.com,2023-11-28,West
+178,N/A,user77@example.com,2023-04-13,WEST
+179,USER_78,user78@example.com,2023-03-06,north
+180,User_79,user79@example.com,2023-05-15,WEST
+181,USER_80,,2023-05-18,WEST
+182,USER_81,user81@example.com,2023-10-09,South
+183,USER_82,user82@example.com,2024-01-01,East
+184,N/A,user83@example.com,2023-01-22,WEST
+185,USER_84,user84@example.com,2023-10-22,north
+186,User_85,user85@example.com,2023-06-25,WEST
+187,user_86,user86@example.com,2023-08-16,WEST
+188,N/A,user87@example.com,2023-10-22,North
+189,USER_88,user88@example.com,2023-11-19,South
+190,user_89,user89@example.com,2023-10-11,North
+191,User_90,,2023-10-09,north
+192,USER_91,user91@example.com,2023-06-21,South
+193, User_92,user92@example.com,2023-12-05,East
+194, User_93,user93@example.com,2023-04-24,north
+195,User_94,user94@example.com,2023-06-17,North
+196,USER_95,user95@example.com,2023-04-10,North
+197, User_96,user96@example.com,2023-11-13,South
+198,USER_97,user97@example.com,2023-06-19,West
+199, User_98,user98@example.com,2023-07-16,West
+200,User_99,user99@example.com,2023-12-06,North
