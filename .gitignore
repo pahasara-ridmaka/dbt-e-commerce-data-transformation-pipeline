@@ -6,3 +6,7 @@ dbt/dbt_packages/
 dbt/logs/
 dbt/.env
 
+raw/orders.csv
+raw/products.csv
+raw/promotions.csv
+raw/users.csv
