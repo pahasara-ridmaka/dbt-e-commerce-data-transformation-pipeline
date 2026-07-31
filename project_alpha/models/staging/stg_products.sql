@@ -2,6 +2,12 @@ WITH source AS (
     SELECT * FROM read_csv_auto('../data/raw/products.csv')
 ),
 
+removed_duplicates AS (
+    SELECT *
+    FROM source
+    QUALIFY ROW_NUMBER() OVER (PARTITION BY product_id ORDER BY product_name DESC) = 1
+),
+
 cleaned AS (
     SELECT
         product_id,
@@ -16,9 +22,8 @@ cleaned AS (
         END AS price,
         CAST(stock_level AS INT) AS stock_level
 
-    FROM source
+    FROM removed_duplicates
     WHERE product_id IS NOT NULL
 )
-
 
 SELECT * FROM cleaned
