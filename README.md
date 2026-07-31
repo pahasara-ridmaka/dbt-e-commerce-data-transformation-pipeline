@@ -2,6 +2,13 @@
 
 This project builds a small e-commerce analytics warehouse with dbt and DuckDB, then serves the transformed data in a Streamlit dashboard.
 
+
+
+https://github.com/user-attachments/assets/b8c8f16b-4e7a-467a-992c-d7758b600694
+
+
+
+
 ## Project Layout
 
 ```text
